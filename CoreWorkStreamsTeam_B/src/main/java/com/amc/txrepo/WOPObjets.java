@@ -161,7 +161,7 @@ public class WOPObjets extends TxBase {
 		}
 
 		if(loginState.equalsIgnoreCase("User Already loggedin")) {
-			
+			System.out.println("User already logged into WOP");
 		}else {
 		driverWOP.close();
 		}
@@ -516,8 +516,9 @@ public class WOPObjets extends TxBase {
 		imageRightClick(rightClickonAsset, 10);
 		imageClick(copyClipboard, 10);
 		Thread.sleep(2000);
+		String result = null;
 		try {
-			String result = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
+			result = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
 
 			System.out.println("result  is :============ " + result);
 			String[] ResultValues = result.toString().split(" 	");
@@ -529,7 +530,7 @@ public class WOPObjets extends TxBase {
 			}
 
 		} catch (Exception e) {
-
+			e.printStackTrace();
 		}
 
 		// Validate Green progressbar
@@ -541,7 +542,7 @@ public class WOPObjets extends TxBase {
 			String GreenStatus = excelUtils.excelData[38][1].toString(); // Finding green status
 			imageFind(GreenStatus, 10);
 			takescreenshot("WOP", "TransmissionViewWithValidContract");
-			String result = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
+			result = (String) Toolkit.getDefaultToolkit().getSystemClipboard().getData(DataFlavor.stringFlavor);
 
 			System.out.println("result  is :============ " + result.trim());
 			String[] ResultValues = result.toString().trim().split("	");
@@ -558,7 +559,7 @@ public class WOPObjets extends TxBase {
 			}
 
 		} catch (Exception e) {
-
+			e.printStackTrace();
 		}
 		String CloseVerification = excelUtils.excelData[39][1].toString(); // Closing verification window.
 		imageClick(CloseVerification, 10);

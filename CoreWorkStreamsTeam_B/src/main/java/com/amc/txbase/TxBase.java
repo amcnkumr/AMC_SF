@@ -784,6 +784,7 @@ public class TxBase {
 				System.out.println("Folder Created SUccessFully");
 			} catch (SecurityException se) {
 				// handle it
+				System.out.println("Folder not able to Create / folder already there");
 			}
 		}
 		String[] entries = index.list();

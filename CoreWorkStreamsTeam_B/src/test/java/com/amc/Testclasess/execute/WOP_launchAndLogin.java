@@ -25,7 +25,7 @@ public class WOP_launchAndLogin extends TxBase{
 	@Test
 	public void launch() throws Exception {
 		
-		WopObj.Login("Chaitanya");
+		WopObj.Login("Naresh");
 		WopObj.reenterPassword();		
 	}
 	
