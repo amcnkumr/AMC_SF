@@ -1,0 +1,62 @@
+{
+  "uid" : "b34d212a48a76b04",
+  "name" : "mpLaunchAndLoginTest",
+  "title" : "Mp launch and login test",
+  "time" : {
+    "start" : 1586797981326,
+    "stop" : 1586798004562,
+    "duration" : 23236
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : {
+    "message" : "SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'\nSystem info: host: 'AUTOQA01-AWSNP', ip: '10.12.8.45', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x002FA113+1548563]\n\tOrdinal0 [0x0027DDA1+1039777]\n\tOrdinal0 [0x001FE485+517253]\n\tOrdinal0 [0x0018FD34+64820]\n\tOrdinal0 [0x0018C61E+50718]\n\tOrdinal0 [0x001AB797+178071]\n\tOrdinal0 [0x001AB59D+177565]\n\tOrdinal0 [0x001A95FB+169467]\n\tOrdinal0 [0x0019160A+71178]\n\tOrdinal0 [0x00192690+75408]\n\tOrdinal0 [0x00192629+75305]\n\tOrdinal0 [0x002971B7+1143223]\n\tGetHandleVerifier [0x00392B46+507814]\n\tGetHandleVerifier [0x00392864+507076]\n\tGetHandleVerifier [0x00399F47+537511]\n\tGetHandleVerifier [0x00393402+510050]\n\tOrdinal0 [0x0028F29C+1110684]\n\tOrdinal0 [0x0029938B+1151883]\n\tOrdinal0 [0x002994F3+1152243]\n\tOrdinal0 [0x002983F5+1147893]\n\tBaseThreadInitThunk [0x74F962C4+36]\n\tRtlSubscribeWnfStateChangeNotification [0x76F51E39+1081]\n\tRtlSubscribeWnfStateChangeNotification [0x76F51E04+1028]\n",
+    "stackTrace" : "org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79\nBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'\nSystem info: host: 'AUTOQA01-AWSNP', ip: '10.12.8.45', os.name: 'Windows Server 2016', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: driver.version: ChromeDriver\nremote stacktrace: Backtrace:\n\tOrdinal0 [0x002FA113+1548563]\n\tOrdinal0 [0x0027DDA1+1039777]\n\tOrdinal0 [0x001FE485+517253]\n\tOrdinal0 [0x0018FD34+64820]\n\tOrdinal0 [0x0018C61E+50718]\n\tOrdinal0 [0x001AB797+178071]\n\tOrdinal0 [0x001AB59D+177565]\n\tOrdinal0 [0x001A95FB+169467]\n\tOrdinal0 [0x0019160A+71178]\n\tOrdinal0 [0x00192690+75408]\n\tOrdinal0 [0x00192629+75305]\n\tOrdinal0 [0x002971B7+1143223]\n\tGetHandleVerifier [0x00392B46+507814]\n\tGetHandleVerifier [0x00392864+507076]\n\tGetHandleVerifier [0x00399F47+537511]\n\tGetHandleVerifier [0x00393402+510050]\n\tOrdinal0 [0x0028F29C+1110684]\n\tOrdinal0 [0x0029938B+1151883]\n\tOrdinal0 [0x002994F3+1152243]\n\tOrdinal0 [0x002983F5+1147893]\n\tBaseThreadInitThunk [0x74F962C4+36]\n\tRtlSubscribeWnfStateChangeNotification [0x76F51E39+1081]\n\tRtlSubscribeWnfStateChangeNotification [0x76F51E04+1028]\n\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)\n\tat java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)\n\tat java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)\n\tat java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)\n\tat java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)\n\tat java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)\n\tat java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)\n\tat org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:142)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)\n\tat com.amc.txbase.TxBase.launchProgram(TxBase.java:836)\n\tat com.amc.Testclasess.execute.MP_launchAndLogin.mpLaunchAndLoginTest(MP_launchAndLogin.java:29)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\n\tat org.testng.TestNG.run(TestNG.java:1017)\n\tat com.amc.testcases.DynamicTestNG.runTestNGTest(DynamicTestNG.java:87)\n\tat com.amc.testcases.DynamicTestNG.ExecuteScripts(DynamicTestNG.java:97)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.lang.reflect.Method.invoke(Method.java:498)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)\n\tat org.testng.internal.Invoker.invokeMethod(Invoker.java:583)\n\tat org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)\n\tat org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:648)\n\tat org.testng.TestRunner.run(TestRunner.java:505)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:455)\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:364)\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1137)\n\tat org.testng.TestNG.runSuites(TestNG.java:1049)\n\tat org.testng.TestNG.run(TestNG.java:1017)\n\tat org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)\n\tat org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)\n\tat org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)\n"
+  },
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "58f51835a798fbe4",
+    "name" : "Suite : Testclasess",
+    "title" : "Suite : Testclasess"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testGroup",
+    "value" : "Testclasess"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.Testclasess.execute.MP_launchAndLogin"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Testclasess"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Testclasess"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "thread",
+    "value" : "4712@AUTOQA01-AWSNP.main(1)"
+  }, {
+    "name" : "host",
+    "value" : "AUTOQA01-AWSNP"
+  }, {
+    "name" : "testMethod",
+    "value" : "mpLaunchAndLoginTest"
+  } ],
+  "parameters" : [ ]
+}

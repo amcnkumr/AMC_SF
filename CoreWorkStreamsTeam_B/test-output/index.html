@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -37,8 +37,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Monocept\AppData\Local\Temp\testng-eclipse--1846216908\testng-customsuite.xml</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>[unset file name]</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -91,21 +91,65 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">8 methods, 7 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.amc.Testclasess.execute.MP_campaignData" hash-for-method="CampaginIntigrationFromWOPtoMP">CampaginIntigrationFromWOPtoMP</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.amc.Testclasess.execute.CampaignDataValidations" hash-for-method="CampaignDataComparion">CampaignDataComparion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.amc.Testclasess.execute.MasterTrailerDataValidations" hash-for-method="MasterTrailerComparion">MasterTrailerComparion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.amc.Testclasess.execute.WOP_launchAndLogin" hash-for-method="launch">launch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.amc.Testclasess.execute.MP_launchAndLogin" hash-for-method="mpLaunchAndLoginTest">mpLaunchAndLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.amc.Testclasess.execute.TrailerDataValidations" hash-for-method="trailerDataComparison">trailerDataComparison</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.amc.Testclasess.execute.WOP_TrailerCampaign" hash-for-method="wopTrailerCampaignTest">wopTrailerCampaignTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.amc.testcases.DynamicTestNG" hash-for-method="ExecuteScripts">ExecuteScripts</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.amc.Testclasess.execute.CampaignHierarchyValidations" hash-for-method="campaignHierarchycomparison">campaignHierarchycomparison</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -116,114 +160,505 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">com.amc.testcases.DynamicTestNG</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.amc.Testclasess.execute.MP_launchAndLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ExecuteScripts">
-                  </a> <!-- ExecuteScripts -->
-                  <span class="method-name">ExecuteScripts</span>
+                  <a name="mpLaunchAndLoginTest">
+                  </a> <!-- mpLaunchAndLoginTest -->
+                  <span class="method-name">mpLaunchAndLoginTest</span>
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 79
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;AUTOQA01-AWSNP&apos;, ip: &apos;10.12.8.45&apos;, os.name: &apos;Windows Server 2016&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x002FA113+1548563]
+	Ordinal0 [0x0027DDA1+1039777]
+	Ordinal0 [0x001FE485+517253]
+	Ordinal0 [0x0018FD34+64820]
+	Ordinal0 [0x0018C61E+50718]
+	Ordinal0 [0x001AB797+178071]
+	Ordinal0 [0x001AB59D+177565]
+	Ordinal0 [0x001A95FB+169467]
+	Ordinal0 [0x0019160A+71178]
+	Ordinal0 [0x00192690+75408]
+	Ordinal0 [0x00192629+75305]
+	Ordinal0 [0x002971B7+1143223]
+	GetHandleVerifier [0x00392B46+507814]
+	GetHandleVerifier [0x00392864+507076]
+	GetHandleVerifier [0x00399F47+537511]
+	GetHandleVerifier [0x00393402+510050]
+	Ordinal0 [0x0028F29C+1110684]
+	Ordinal0 [0x0029938B+1151883]
+	Ordinal0 [0x002994F3+1152243]
+	Ordinal0 [0x002983F5+1147893]
+	BaseThreadInitThunk [0x74F962C4+36]
+	RtlSubscribeWnfStateChangeNotification [0x76F51E39+1081]
+	RtlSubscribeWnfStateChangeNotification [0x76F51E04+1028]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:499)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:486)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:147)
+	at com.amc.txbase.TxBase.launchProgram(TxBase.java:836)
+	at com.amc.Testclasess.execute.MP_launchAndLogin.mpLaunchAndLoginTest(MP_launchAndLogin.java:29)
+	at com.amc.testcases.DynamicTestNG.runTestNGTest(DynamicTestNG.java:87)
+	at com.amc.testcases.DynamicTestNG.ExecuteScripts(DynamicTestNG.java:97)
+... Removed 54 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.amc.Testclasess.execute.TrailerDataValidations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="trailerDataComparison">
+                  </a> <!-- trailerDataComparison -->
+                  <span class="method-name">trailerDataComparison</span>
+                  <div class="stack-trace">FindFailed: D:/CoreWorkStreamsTeam_B/Pictures/WopImages/TrailerTypeD.PNG: (271x34) in S(0)[0,0 1366x768] E:Y, T:3.0
+  Line 2782, in file Region.java
+
+	at org.sikuli.script.Region.wait(Region.java:2782)
+	at com.amc.txbase.TxBase.imagecopyText(TxBase.java:640)
+	at com.amc.txrepo.WOP_MPTrailerDataValidations.trailerDataSelection(WOP_MPTrailerDataValidations.java:25)
+	at com.amc.Testclasess.execute.TrailerDataValidations.trailerDataComparison(TrailerDataValidations.java:41)
+	at com.amc.testcases.DynamicTestNG.runTestNGTest(DynamicTestNG.java:87)
+	at com.amc.testcases.DynamicTestNG.ExecuteScripts(DynamicTestNG.java:97)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.amc.Testclasess.execute.WOP_TrailerCampaign</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="wopTrailerCampaignTest">
+                  </a> <!-- wopTrailerCampaignTest -->
+                  <span class="method-name">wopTrailerCampaignTest</span>
+                  <div class="stack-trace">FindFailed: D:/CoreWorkStreamsTeam_B/Pictures/WopImages/TrailerIcon.PNG: (23x27) in S(0)[0,0 1366x768] E:Y, T:3.0
+  Line 2782, in file Region.java
+
+	at org.sikuli.script.Region.wait(Region.java:2782)
+	at com.amc.txbase.TxBase.imageFindClick(TxBase.java:671)
+	at com.amc.txrepo.WOP_TrailorCampaignObjects.trailerCampaign(WOP_TrailorCampaignObjects.java:36)
+	at com.amc.Testclasess.execute.WOP_TrailerCampaign.wopTrailerCampaignTest(WOP_TrailerCampaign.java:20)
+	at com.amc.testcases.DynamicTestNG.runTestNGTest(DynamicTestNG.java:87)
+	at com.amc.testcases.DynamicTestNG.ExecuteScripts(DynamicTestNG.java:97)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.amc.Testclasess.execute.MasterTrailerDataValidations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MasterTrailerComparion">
+                  </a> <!-- MasterTrailerComparion -->
+                  <span class="method-name">MasterTrailerComparion</span>
+                  <div class="stack-trace">FindFailed: D:/CoreWorkStreamsTeam_B/Pictures/WopImages/M1Trailer1CategoryD.PNG: (260x31) in S(0)[0,0 1366x768] E:Y, T:3.0
+  Line 2782, in file Region.java
+
+	at org.sikuli.script.Region.wait(Region.java:2782)
+	at com.amc.txbase.TxBase.imagecopyText(TxBase.java:640)
+	at com.amc.txrepo.WOP_MPMasterTrailerDataValidations.masterTrailer2DataSelection(WOP_MPMasterTrailerDataValidations.java:25)
+	at com.amc.Testclasess.execute.MasterTrailerDataValidations.MasterTrailerComparion(MasterTrailerDataValidations.java:39)
+	at com.amc.testcases.DynamicTestNG.runTestNGTest(DynamicTestNG.java:87)
+	at com.amc.testcases.DynamicTestNG.ExecuteScripts(DynamicTestNG.java:97)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.amc.Testclasess.execute.MP_campaignData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CampaginIntigrationFromWOPtoMP">
+                  </a> <!-- CampaginIntigrationFromWOPtoMP -->
+                  <span class="method-name">CampaginIntigrationFromWOPtoMP</span>
+                  <div class="stack-trace">FindFailed: D:/CoreWorkStreamsTeam_B/Pictures/WopImages/ProjectManagement.PNG: (143x20) in S(0)[0,0 1366x768] E:Y, T:3.0
+  Line 2782, in file Region.java
+
+	at org.sikuli.script.Region.wait(Region.java:2782)
+	at com.amc.txbase.TxBase.imageFindClick(TxBase.java:671)
+	at com.amc.txrepo.MP_CampaignObjects.projectManagement(MP_CampaignObjects.java:35)
+	at com.amc.Testclasess.execute.MP_campaignData.CampaginIntigrationFromWOPtoMP(MP_campaignData.java:40)
+	at com.amc.testcases.DynamicTestNG.runTestNGTest(DynamicTestNG.java:87)
+	at com.amc.testcases.DynamicTestNG.ExecuteScripts(DynamicTestNG.java:97)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.amc.Testclasess.execute.WOP_launchAndLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="launch">
+                  </a> <!-- launch -->
+                  <span class="method-name">launch</span>
+                  <div class="stack-trace">FindFailed: D:/CoreWorkStreamsTeam_B/Pictures//WopImages//WopStartIcon.PNG: (55x53) in S(0)[0,0 1366x768] E:Y, T:3.0
+  Line 2782, in file Region.java
+
+	at org.sikuli.script.Region.wait(Region.java:2782)
+	at com.amc.txbase.TxBase.imageClick(TxBase.java:472)
+	at com.amc.txrepo.WOPObjets.reenterPassword(WOPObjets.java:174)
+	at com.amc.Testclasess.execute.WOP_launchAndLogin.launch(WOP_launchAndLogin.java:29)
+	at com.amc.testcases.DynamicTestNG.runTestNGTest(DynamicTestNG.java:87)
+	at com.amc.testcases.DynamicTestNG.ExecuteScripts(DynamicTestNG.java:97)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.amc.Testclasess.execute.CampaignDataValidations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CampaignDataComparion">
+                  </a> <!-- CampaignDataComparion -->
+                  <span class="method-name">CampaignDataComparion</span>
+                  <div class="stack-trace">FindFailed: D:/CoreWorkStreamsTeam_B/Pictures/WopImages/CampaignDataNetwork.PNG: (188x26) in S(0)[0,0 1366x768] E:Y, T:3.0
+  Line 2782, in file Region.java
+
+	at org.sikuli.script.Region.wait(Region.java:2782)
+	at com.amc.txbase.TxBase.imagecopyText(TxBase.java:640)
+	at com.amc.txrepo.WOPtoMP_CampaignDataValidation.campaignDataSelection(WOPtoMP_CampaignDataValidation.java:26)
+	at com.amc.Testclasess.execute.CampaignDataValidations.CampaignDataComparion(CampaignDataValidations.java:38)
+	at com.amc.testcases.DynamicTestNG.runTestNGTest(DynamicTestNG.java:87)
+	at com.amc.testcases.DynamicTestNG.ExecuteScripts(DynamicTestNG.java:97)
+... Removed 50 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.amc.Testclasess.execute.CampaignHierarchyValidations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="campaignHierarchycomparison">
+                  </a> <!-- campaignHierarchycomparison -->
+                  <span class="method-name">campaignHierarchycomparison</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Monocept\AppData\Local\Temp\testng-eclipse--1846216908\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+&lt;suite name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Testclasess&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.amc.testcases.DynamicTestNG&quot;/&gt;
+      &lt;class name=&quot;com.amc.Testclasess.execute.WOP_launchAndLogin&quot;/&gt;
+      &lt;class name=&quot;com.amc.Testclasess.execute.WOP_TrailerCampaign&quot;/&gt;
+      &lt;class name=&quot;com.amc.Testclasess.execute.MP_launchAndLogin&quot;/&gt;
+      &lt;class name=&quot;com.amc.Testclasess.execute.MP_campaignData&quot;/&gt;
+      &lt;class name=&quot;com.amc.Testclasess.execute.CampaignHierarchyValidations&quot;/&gt;
+      &lt;class name=&quot;com.amc.Testclasess.execute.CampaignDataValidations&quot;/&gt;
+      &lt;class name=&quot;com.amc.Testclasess.execute.MasterTrailerDataValidations&quot;/&gt;
+      &lt;class name=&quot;com.amc.Testclasess.execute.TrailerDataValidations&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Testclasess --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Testclasess (8 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(8);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'ExecuteScripts')
-data.setCell(0, 2, 'com.amc.testcases.DynamicTestNG')
-data.setCell(0, 3, 2334);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(0, 1, 'launch')
+data.setCell(0, 2, 'com.amc.Testclasess.execute.WOP_launchAndLogin')
+data.setCell(0, 3, 48655);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CampaignDataComparion')
+data.setCell(1, 2, 'com.amc.Testclasess.execute.CampaignDataValidations')
+data.setCell(1, 3, 26827);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'mpLaunchAndLoginTest')
+data.setCell(2, 2, 'com.amc.Testclasess.execute.MP_launchAndLogin')
+data.setCell(2, 3, 23235);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'wopTrailerCampaignTest')
+data.setCell(3, 2, 'com.amc.Testclasess.execute.WOP_TrailerCampaign')
+data.setCell(3, 3, 16286);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'MasterTrailerComparion')
+data.setCell(4, 2, 'com.amc.Testclasess.execute.MasterTrailerDataValidations')
+data.setCell(4, 3, 12528);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'trailerDataComparison')
+data.setCell(5, 2, 'com.amc.Testclasess.execute.TrailerDataValidations')
+data.setCell(5, 3, 12342);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'CampaginIntigrationFromWOPtoMP')
+data.setCell(6, 2, 'com.amc.Testclasess.execute.MP_campaignData')
+data.setCell(6, 3, 9239);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'campaignHierarchycomparison')
+data.setCell(7, 2, 'com.amc.Testclasess.execute.CampaignHierarchyValidations')
+data.setCell(7, 3, 2003);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">7 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amc.Testclasess.execute.MP_launchAndLogin</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closingbrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amc.Testclasess.execute.TrailerDataValidations</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closingbrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amc.Testclasess.execute.WOP_TrailerCampaign</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closingbrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amc.Testclasess.execute.CampaignHierarchyValidations</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closingbrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amc.Testclasess.execute.MasterTrailerDataValidations</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closingbrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amc.Testclasess.execute.MP_campaignData</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closingbrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.amc.Testclasess.execute.CampaignDataValidations</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">closingbrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.amc.testcases.DynamicTestNG</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">ExecuteScripts</span>
+              <div class="chronological-class-name">com.amc.Testclasess.execute.WOP_TrailerCampaign</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amc.Testclasess.execute.WOP_launchAndLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">2025 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">launch</span>
+                <span class="method-start">2172 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amc.Testclasess.execute.WOP_TrailerCampaign</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">wopTrailerCampaignTest</span>
+                <span class="method-start">50837 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amc.Testclasess.execute.MP_launchAndLogin</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">mpLaunchAndLoginTest</span>
+                <span class="method-start">67124 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amc.Testclasess.execute.MP_campaignData</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CampaginIntigrationFromWOPtoMP</span>
+                <span class="method-start">90363 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amc.Testclasess.execute.CampaignHierarchyValidations</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">campaignHierarchycomparison</span>
+                <span class="method-start">99603 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amc.Testclasess.execute.CampaignDataValidations</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">CampaignDataComparion</span>
+                <span class="method-start">101612 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amc.Testclasess.execute.MasterTrailerDataValidations</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MasterTrailerComparion</span>
+                <span class="method-start">128440 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amc.Testclasess.execute.TrailerDataValidations</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">trailerDataComparison</span>
+                <span class="method-start">140969 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.amc.Testclasess.execute.WOP_launchAndLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">153312 ms</span>
+              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

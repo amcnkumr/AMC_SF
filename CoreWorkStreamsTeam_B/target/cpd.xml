@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <pmd-cpd>
    <duplication lines="17" tokens="117">
-      <file line="212"
-            path="C:\Users\chaitanya\Desktop\TxLive_Old\TXLiveRegression_Old\src\main\java\com\amc\txrepo\WOPObjets.java"/>
-      <file line="565"
-            path="C:\Users\chaitanya\Desktop\TxLive_Old\TXLiveRegression_Old\src\main\java\com\amc\txrepo\WOPObjets.java"/>
+      <file line="227"
+            path="D:\CoreWorkStreamsTeam_B\src\main\java\com\amc\txrepo\WOPObjets.java"/>
+      <file line="581"
+            path="D:\CoreWorkStreamsTeam_B\src\main\java\com\amc\txrepo\WOPObjets.java"/>
       <codefragment><![CDATA[				imageClick(WOPLuanchfromTaskBar, 10); 
 				String ProdSearch = excelUtils.excelData[2][1].toString();
 				imageEnterText(ProdSearch, "Transmission", 30);
@@ -24,10 +24,10 @@
 				imageEnterText(EndDate, "10/20/2019", 10);]]></codefragment>
    </duplication>
    <duplication lines="16" tokens="111">
-      <file line="272"
-            path="C:\Users\chaitanya\Desktop\TxLive_Old\TXLiveRegression_Old\src\main\java\com\amc\txrepo\WOPObjets.java"/>
-      <file line="564"
-            path="C:\Users\chaitanya\Desktop\TxLive_Old\TXLiveRegression_Old\src\main\java\com\amc\txrepo\WOPObjets.java"/>
+      <file line="287"
+            path="D:\CoreWorkStreamsTeam_B\src\main\java\com\amc\txrepo\WOPObjets.java"/>
+      <file line="580"
+            path="D:\CoreWorkStreamsTeam_B\src\main\java\com\amc\txrepo\WOPObjets.java"/>
       <codefragment><![CDATA[		LauncherTop = excelUtils.excelData[1][1].toString();
 		imageClick(LauncherTop, 10);
 		// search for View

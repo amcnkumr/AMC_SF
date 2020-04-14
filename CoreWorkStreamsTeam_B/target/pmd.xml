@@ -1,16 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.6.1" timestamp="2020-03-22T12:00:00.659">
-<file name="C:\Users\chaitanya\Desktop\TxLive_Old\TXLiveRegression_Old\src\main\java\com\amc\txbase\TxBase.java">
-<violation beginline="783" endline="785" begincolumn="27" endcolumn="25" rule="EmptyCatchBlock" ruleset="Empty Code" package="com.amc.txbase" class="TxBase" method="cleanFolder" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/empty.html#EmptyCatchBlock" priority="3">
-Avoid empty catch blocks
-</violation>
-</file>
-<file name="C:\Users\chaitanya\Desktop\TxLive_Old\TXLiveRegression_Old\src\main\java\com\amc\txrepo\WOPObjets.java">
-<violation beginline="516" endline="518" begincolumn="19" endcolumn="17" rule="EmptyCatchBlock" ruleset="Empty Code" package="com.amc.txrepo" class="WOPObjets" method="scheduleThroughExploitationWindowBrowser" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/empty.html#EmptyCatchBlock" priority="3">
-Avoid empty catch blocks
-</violation>
-<violation beginline="545" endline="547" begincolumn="19" endcolumn="17" rule="EmptyCatchBlock" ruleset="Empty Code" package="com.amc.txrepo" class="WOPObjets" method="scheduleThroughExploitationWindowBrowser" externalInfoUrl="https://pmd.github.io/pmd-5.6.1/pmd-java/rules/java/empty.html#EmptyCatchBlock" priority="3">
-Avoid empty catch blocks
-</violation>
-</file>
+<pmd version="5.6.1" timestamp="2020-04-13T13:14:32.540">
 </pmd>

@@ -1,0 +1,145 @@
+{
+  "time" : {
+    "start" : 1586797916373,
+    "stop" : 1586798067511,
+    "duration" : 151138
+  },
+  "testSuites" : [ {
+    "uid" : "e1fc9815543a2c38",
+    "name" : "Suite : Test",
+    "title" : "Suite : Test",
+    "time" : {
+      "start" : 1586797916373,
+      "stop" : 1586797965036,
+      "duration" : 48663
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 0,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "940417c57dd79e9b",
+      "name" : "launch",
+      "title" : "Launch",
+      "time" : {
+        "start" : 1586797916373,
+        "stop" : 1586797965036,
+        "duration" : 48663
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    } ]
+  }, {
+    "uid" : "58f51835a798fbe4",
+    "name" : "Suite : Testclasess",
+    "title" : "Suite : Testclasess",
+    "time" : {
+      "start" : 1586797916373,
+      "stop" : 1586798067511,
+      "duration" : 151138
+    },
+    "statistic" : {
+      "total" : 8,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 7
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "246cf3ed7bd58f42",
+      "name" : "launch",
+      "title" : "Launch",
+      "time" : {
+        "start" : 1586797916373,
+        "stop" : 1586797965036,
+        "duration" : 48663
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "862218663f4629f0",
+      "name" : "wopTrailerCampaignTest",
+      "title" : "Wop trailer campaign test",
+      "time" : {
+        "start" : 1586797965039,
+        "stop" : 1586797981324,
+        "duration" : 16285
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "b34d212a48a76b04",
+      "name" : "mpLaunchAndLoginTest",
+      "title" : "Mp launch and login test",
+      "time" : {
+        "start" : 1586797981326,
+        "stop" : 1586798004562,
+        "duration" : 23236
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "87bb423eeab3379a",
+      "name" : "CampaginIntigrationFromWOPtoMP",
+      "title" : "CampaginIntigrationFromWOPtoMP",
+      "time" : {
+        "start" : 1586798004564,
+        "stop" : 1586798013803,
+        "duration" : 9239
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "590b5b7af415e0d5",
+      "name" : "campaignHierarchycomparison",
+      "title" : "campaignHierarchycomparison",
+      "time" : {
+        "start" : 1586798013805,
+        "stop" : 1586798015806,
+        "duration" : 2001
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    }, {
+      "uid" : "b49ffe3520ea886d",
+      "name" : "CampaignDataComparion",
+      "title" : "CampaignDataComparion",
+      "time" : {
+        "start" : 1586798015813,
+        "stop" : 1586798042639,
+        "duration" : 26826
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "fe899ce6e5284e08",
+      "name" : "MasterTrailerComparion",
+      "title" : "CampaignDataComparion",
+      "time" : {
+        "start" : 1586798042641,
+        "stop" : 1586798055168,
+        "duration" : 12527
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    }, {
+      "uid" : "35d3a871b5ca9977",
+      "name" : "trailerDataComparison",
+      "title" : "trailerDataComparison",
+      "time" : {
+        "start" : 1586798055170,
+        "stop" : 1586798067511,
+        "duration" : 12341
+      },
+      "severity" : "NORMAL",
+      "status" : "BROKEN"
+    } ]
+  } ]
+}
