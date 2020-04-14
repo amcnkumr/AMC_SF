@@ -17,7 +17,7 @@
 			<id>AMCSmokeTestNew</id>
 		</profile>
 	</profiles>
-
+	<!-- Upadate POM File -->
 	<!-- Properties Plugins -->
 	<properties>
 		<aspectj.version>1.9.4</aspectj.version>
