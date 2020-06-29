@@ -1,0 +1,10 @@
+com\amc\Testclasess\execute\WOP_TrailerCampaign.class
+com\amc\Testclasess\execute\CampaignDataValidations.class
+com\amc\Testclasess\execute\WOP_launchAndLogin.class
+com\amc\Testclasess\execute\MasterTrailerDataValidations.class
+com\amc\Testclasess\execute\TrailerDataValidations.class
+com\amc\Testclasess\execute\DryRun.class
+com\amc\Testclasess\execute\MP_campaignData.class
+com\amc\testcases\DynamicTestNG.class
+com\amc\testcases\WopIntegration.class
+com\amc\Testclasess\execute\MP_launchAndLogin.class

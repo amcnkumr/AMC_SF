@@ -1,0 +1,80 @@
+{
+  "uid" : "19b39eedd988bcf2",
+  "name" : "CampaginIntigrationFromWOPtoMP",
+  "title" : "Integration From WOP to MP",
+  "time" : {
+    "start" : 1593422387054,
+    "stop" : 1593422439427,
+    "duration" : 52373
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "d73468ae5fe45888",
+    "name" : "Suite : Testclasess",
+    "title" : "Suite : Testclasess"
+  },
+  "steps" : [ {
+    "name" : "logStep[WOP Campaign Data is Integrated Successfully With MP:Campaign Test_Regress]",
+    "title" : "WOP Campaign Data is Integrated Successfully With MP:Campaign Test_Regress",
+    "time" : {
+      "start" : 1593422412751,
+      "stop" : 1593422412754,
+      "duration" : 3
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testGroup",
+    "value" : "Testclasess"
+  }, {
+    "name" : "feature",
+    "value" : "ShortForm_Regression"
+  }, {
+    "name" : "thread",
+    "value" : "23784@MONO-HYD-LAP-41.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "story",
+    "value" : "WOP to MP Integration"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Testclasess"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Testclasess"
+  }, {
+    "name" : "testMethod",
+    "value" : "CampaginIntigrationFromWOPtoMP"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-41"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.Testclasess.execute.MP_campaignData"
+  } ],
+  "parameters" : [ ]
+}

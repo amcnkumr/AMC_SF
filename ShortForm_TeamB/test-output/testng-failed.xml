@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Testclasess(failed)">
+    <classes>
+      <class name="com.amc.Testclasess.execute.TrailerDataValidations">
+        <methods>
+          <include name="validateEndDateTest"/>
+          <include name="closingbrowser"/>
+        </methods>
+      </class> <!-- com.amc.Testclasess.execute.TrailerDataValidations -->
+    </classes>
+  </test> <!-- Testclasess(failed) -->
+</suite> <!-- Failed suite [Suite] -->

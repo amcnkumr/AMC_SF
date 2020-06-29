@@ -1,0 +1,306 @@
+{
+  "features" : [ {
+    "title" : "ShortForm_Regression",
+    "statistic" : {
+      "total" : 20,
+      "passed" : 19,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 1,
+      "broken" : 0
+    },
+    "stories" : [ {
+      "uid" : "1ccd6ea012635273",
+      "title" : "WOP Campaign Hierachy Creation",
+      "statistic" : {
+        "total" : 2,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "e217d9c0f4df72b0",
+        "name" : "wopTrailerCampaignTest",
+        "title" : "Campaign/Master/Traier Creation",
+        "time" : {
+          "start" : 1593422109740,
+          "stop" : 1593422387048,
+          "duration" : 277308
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "d6c21eae5f2141ac",
+        "name" : "wopTrailerCampaignTest",
+        "title" : "Campaign/Master/Traier Creation",
+        "time" : {
+          "start" : 1593422109740,
+          "stop" : 1593422387048,
+          "duration" : 277308
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "a89b79f6b936539b",
+      "title" : "WOP to MP Integration",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "19b39eedd988bcf2",
+        "name" : "CampaginIntigrationFromWOPtoMP",
+        "title" : "Integration From WOP to MP",
+        "time" : {
+          "start" : 1593422387054,
+          "stop" : 1593422439427,
+          "duration" : 52373
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "492199a833543e73",
+      "title" : "WOP to MP Campaign Data",
+      "statistic" : {
+        "total" : 3,
+        "passed" : 3,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "b1bb56eddf8a2bb2",
+        "name" : "validateCampaignTitleTest",
+        "title" : "Campaign Title Validation",
+        "time" : {
+          "start" : 1593422439429,
+          "stop" : 1593422439441,
+          "duration" : 12
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "835c0b12d228084a",
+        "name" : "validateCampaignOwnerTest",
+        "title" : "Campaign Owner Validation",
+        "time" : {
+          "start" : 1593422439443,
+          "stop" : 1593422439444,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5ca95976def3f5a1",
+        "name" : "validateOwnerNetworkTest",
+        "title" : "OwnerNetwork Validation",
+        "time" : {
+          "start" : 1593422439447,
+          "stop" : 1593422439449,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "524896b2e510912c",
+      "title" : "WOP-MP Master Trailer Data ",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "2891688b50a9ed7a",
+        "name" : "MasterTrailerAndTrailerDataSelectionTest",
+        "title" : "MasterTrailer And Trailer Data Selection",
+        "time" : {
+          "start" : 1593422439452,
+          "stop" : 1593422563833,
+          "duration" : 124381
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "4346ab0c091cdc37",
+      "title" : "WOP-MP Master Trailer Data",
+      "statistic" : {
+        "total" : 5,
+        "passed" : 5,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "dc5f1dba61547cd9",
+        "name" : "validateTitleTest",
+        "title" : "Title Validation",
+        "time" : {
+          "start" : 1593422563835,
+          "stop" : 1593422563836,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b567d046a1ed4a2c",
+        "name" : "validateExpectedFrameRateTest",
+        "title" : "Expected FrameRate Validation",
+        "time" : {
+          "start" : 1593422563837,
+          "stop" : 1593422563838,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "18b1d220d2c9b0fe",
+        "name" : "validateExpectedVideoCodecTest",
+        "title" : "Expected VideoCodec Validation",
+        "time" : {
+          "start" : 1593422563839,
+          "stop" : 1593422563841,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "957bf356002bdce4",
+        "name" : "validateExpectedAspectRatioTest",
+        "title" : "Expected AspectRatio Validation",
+        "time" : {
+          "start" : 1593422563842,
+          "stop" : 1593422563844,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "1c3639b5b1c708e8",
+        "name" : "validateExpectedFormatTest",
+        "title" : "Expected Format Validation",
+        "time" : {
+          "start" : 1593422563845,
+          "stop" : 1593422563847,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "ed3aa3e5bf8c43b0",
+      "title" : "WOP-MP Trailer Data",
+      "statistic" : {
+        "total" : 8,
+        "passed" : 7,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "bfdc74444bfdc3d1",
+        "name" : "validateTitleTest",
+        "title" : "Title Field Validation",
+        "time" : {
+          "start" : 1593422563849,
+          "stop" : 1593422563855,
+          "duration" : 6
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "27f05d9555d0ef4d",
+        "name" : "validateStartDateTest",
+        "title" : "Start Date Field Validation",
+        "time" : {
+          "start" : 1593422563856,
+          "stop" : 1593422563858,
+          "duration" : 2
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "46eaad7f145a2098",
+        "name" : "validateEndDateTest",
+        "title" : "End Date Field Validation",
+        "time" : {
+          "start" : 1593422563859,
+          "stop" : 1593422563884,
+          "duration" : 25
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      }, {
+        "uid" : "5dd1c33af71d2662",
+        "name" : "validateOwnerNetworkTest",
+        "title" : "OwnerNetwork Field Validation",
+        "time" : {
+          "start" : 1593422563886,
+          "stop" : 1593422563887,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "c0267e55afd2834b",
+        "name" : "validateExpectedFrameRateTest",
+        "title" : "Expected FrameRate Field Validation",
+        "time" : {
+          "start" : 1593422563889,
+          "stop" : 1593422563890,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "40d63231d1c5db3f",
+        "name" : "validateExpectedVideoCodecTest",
+        "title" : "Expected VideoCodec Field Validation",
+        "time" : {
+          "start" : 1593422563891,
+          "stop" : 1593422563892,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "e37967b91d00eb0c",
+        "name" : "validateExpectedAspectRatioTest",
+        "title" : "Expected AspectRatio Field Validation",
+        "time" : {
+          "start" : 1593422563894,
+          "stop" : 1593422563894,
+          "duration" : 0
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "a104e655efd5e421",
+        "name" : "validateExpectedFormatTest",
+        "title" : "Expected Format Field Validation",
+        "time" : {
+          "start" : 1593422563895,
+          "stop" : 1593422563896,
+          "duration" : 1
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    } ]
+  } ]
+}

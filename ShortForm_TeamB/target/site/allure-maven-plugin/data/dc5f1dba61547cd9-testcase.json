@@ -1,0 +1,80 @@
+{
+  "uid" : "dc5f1dba61547cd9",
+  "name" : "validateTitleTest",
+  "title" : "Title Validation",
+  "time" : {
+    "start" : 1593422563835,
+    "stop" : 1593422563836,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "d73468ae5fe45888",
+    "name" : "Suite : Testclasess",
+    "title" : "Suite : Testclasess"
+  },
+  "steps" : [ {
+    "name" : "logStep[WOP Data [ Title:Master Trailer_1 ] Matched With MP Data [ Title:Master Trailer_1 ] ]",
+    "title" : "WOP Data [ Title:Master Trailer_1 ] Matched With MP Data [ Title:Master Trailer_1 ] ",
+    "time" : {
+      "start" : 1593422563836,
+      "stop" : 1593422563836,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testGroup",
+    "value" : "Testclasess"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateTitleTest"
+  }, {
+    "name" : "feature",
+    "value" : "ShortForm_Regression"
+  }, {
+    "name" : "thread",
+    "value" : "23784@MONO-HYD-LAP-41.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Testclasess"
+  }, {
+    "name" : "story",
+    "value" : "WOP-MP Master Trailer Data"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Testclasess"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.Testclasess.execute.MasterTrailerDataValidations"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-41"
+  } ],
+  "parameters" : [ ]
+}

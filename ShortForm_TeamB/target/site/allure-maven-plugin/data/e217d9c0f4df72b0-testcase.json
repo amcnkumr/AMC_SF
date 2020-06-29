@@ -1,0 +1,65 @@
+{
+  "uid" : "e217d9c0f4df72b0",
+  "name" : "wopTrailerCampaignTest",
+  "title" : "Campaign/Master/Traier Creation",
+  "time" : {
+    "start" : 1593422109740,
+    "stop" : 1593422387048,
+    "duration" : 277308
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "d73468ae5fe45888",
+    "name" : "Suite : Testclasess",
+    "title" : "Suite : Testclasess"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testGroup",
+    "value" : "Testclasess"
+  }, {
+    "name" : "feature",
+    "value" : "ShortForm_Regression"
+  }, {
+    "name" : "thread",
+    "value" : "23784@MONO-HYD-LAP-41.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Testclasess"
+  }, {
+    "name" : "testMethod",
+    "value" : "wopTrailerCampaignTest"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Testclasess"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.Testclasess.execute.WOP_TrailerCampaign"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "story",
+    "value" : "WOP Campaign Hierachy Creation"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-41"
+  } ],
+  "parameters" : [ ]
+}

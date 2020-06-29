@@ -1,0 +1,80 @@
+{
+  "uid" : "5dd1c33af71d2662",
+  "name" : "validateOwnerNetworkTest",
+  "title" : "OwnerNetwork Field Validation",
+  "time" : {
+    "start" : 1593422563886,
+    "stop" : 1593422563887,
+    "duration" : 1
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 1
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "d73468ae5fe45888",
+    "name" : "Suite : Testclasess",
+    "title" : "Suite : Testclasess"
+  },
+  "steps" : [ {
+    "name" : "logStep[WOP Data [ OwnerNetwork:AMC ] Matched With MP Data [ OwnerNetwork:AMC ] ]",
+    "title" : "WOP Data [ OwnerNetwork:AMC ] Matched With MP Data [ OwnerNetwork:AMC ] ",
+    "time" : {
+      "start" : 1593422563887,
+      "stop" : 1593422563887,
+      "duration" : 0
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "testSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "testGroup",
+    "value" : "Testclasess"
+  }, {
+    "name" : "story",
+    "value" : "WOP-MP Trailer Data"
+  }, {
+    "name" : "feature",
+    "value" : "ShortForm_Regression"
+  }, {
+    "name" : "thread",
+    "value" : "23784@MONO-HYD-LAP-41.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "testClass",
+    "value" : "com.amc.Testclasess.execute.TrailerDataValidations"
+  }, {
+    "name" : "testMethod",
+    "value" : "validateOwnerNetworkTest"
+  }, {
+    "name" : "suite-name",
+    "value" : "Suite : Testclasess"
+  }, {
+    "name" : "suite-title",
+    "value" : "Suite : Testclasess"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  }, {
+    "name" : "host",
+    "value" : "MONO-HYD-LAP-41"
+  } ],
+  "parameters" : [ ]
+}

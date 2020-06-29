@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="460104" started-at="2020-06-29T09:15:04Z" finished-at="2020-06-29T09:22:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="460104" started-at="2020-06-29T09:15:04Z" finished-at="2020-06-29T09:22:45Z">
+      <class name="com.amc.testcases.DynamicTestNG">
+        <test-method status="PASS" signature="ExecuteScripts()[pri:0, instance:com.amc.testcases.DynamicTestNG@3e52ed5d]" name="ExecuteScripts" duration-ms="460012" started-at="2020-06-29T09:15:05Z" finished-at="2020-06-29T09:22:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteScripts -->
+      </class> <!-- com.amc.testcases.DynamicTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

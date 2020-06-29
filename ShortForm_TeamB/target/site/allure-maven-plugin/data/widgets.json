@@ -1,0 +1,70 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 20,
+        "passed" : 19,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 1,
+        "broken" : 0
+      },
+      "time" : {
+        "start" : 1593422109740,
+        "stop" : 1593422563896,
+        "duration" : 454156
+      }
+    },
+    "defects" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "e0a7776c87e7e020",
+        "message" : "AssertionError: The following asserts failed:\n\tTrailerEndDate:07-06-2020 --- Not Matched with --- [Title:M1_Trailer Test_1, TrailerStartDate:06-06-2020, TrailerEndDate:06-07-2020, OwnerNetwork:AMC, ExpectedTRT:00:02:30, ExpectedFrameRate:29.97fps, ExpectedVideoCodec:DNx HD (SMPTE VC-3), ExpectedAspectRatio:1.78, ExpectedFormat:HD]",
+        "status" : "FAILED"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 2,
+      "items" : [ {
+        "uid" : "7a3628d962bdbb7c",
+        "title" : "Suite : Test",
+        "statistic" : {
+          "total" : 1,
+          "passed" : 1,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 0
+        }
+      }, {
+        "uid" : "d73468ae5fe45888",
+        "title" : "Suite : Testclasess",
+        "statistic" : {
+          "total" : 19,
+          "passed" : 18,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "ShortForm_Regression",
+        "statistic" : {
+          "total" : 20,
+          "passed" : 19,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 1,
+          "broken" : 0
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}
